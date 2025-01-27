@@ -61,6 +61,7 @@ Best For: Applications requiring both object detection and pixel-level segmentat
 Pre-trained Weights: Available on COCO.
 Transfer Learning Use Case: Fine-tune for detecting and segmenting domain-specific objects.
 
+- **This repository only includes fast R-CNN, yolo, DETR (Detection transformer) and ssd**
 
 **Summary of Selection Based on Needs:**
 
@@ -70,4 +71,41 @@ Transfer Learning Use Case: Fine-tune for detecting and segmenting domain-specif
 4. Mobile/Efficient Deployment: EfficientDet, SSD.
 
 
+# Dataset :
 
+**This dataset has 500 images with 2 classes and annotations labels data.**
+    Categories: Two classes – Children's and Adults.
+    Diversity: Includes a wide range of scenarios for robust model training.
+    Annotations: Provides bounding boxes and class labels for all detected individuals.
+
+![Kaggle link](https://www.kaggle.com/datasets/kaushigihanml/kids-and-adults-detection)
+![Roboflow link](https://universe.roboflow.com/children-and-adults-detection/children-and-adults-detection/dataset/2)
+
+
+# 1. Faster R-CNN - [Notebook]( )
+![image]()
+
+This notebook demonstrates the implementation of transfer learning on a Faster R-CNN model using Facebook's Detectron2 library. It includes steps to fine-tune a pre-trained model for custom object detection tasks, with detailed examples of data preparation, training, and evaluation
+
+![Detectron2 ](https://ai.meta.com/tools/detectron2/)
+![Detectron2 github ](https://github.com/facebookresearch/detectron2)
+
+
+
+# 2. Yolo - [Notebook]( )
+![image]()
+
+This Notebook provides an implementation of transfer learning for object detection using the YOLO (You Only Look Once) model. It covers the process of fine-tuning a pre-trained YOLO model on custom datasets, including data preparation, annotation, model configuration, training, and evaluation. Suitable for efficient and real-time object detection tasks.
+
+![yolo](https://docs.ultralytics.com/)
+![yolo 8 finetune ](https://docs.ultralytics.com/modes/train/)
+
+
+# 3. DETR (DEtection TRansformer) - [Notebook]( )
+![image]()
+
+This notrbook demonstrates how to implement transfer learning using DETR (DEtection TRansformers) for object detection tasks. It includes steps for fine-tuning a pre-trained DETR model on custom datasets, covering data preparation, model configuration, training, and evaluation. DETR combines transformers with CNNs for end-to-end object detection, enabling improved performance on complex detection tasks.
+
+
+![Huggingface Detr](https://huggingface.co/docs/transformers/en/model_doc/detr)
+![Finetune detr](https://github.com/NielsRogge/Transformers-Tutorials/tree/master/DETR)
