@@ -88,8 +88,8 @@ Transfer Learning Use Case: Fine-tune for detecting and segmenting domain-specif
 
 This notebook demonstrates the implementation of transfer learning on a Faster R-CNN model using Facebook's Detectron2 library. It includes steps to fine-tune a pre-trained model for custom object detection tasks, with detailed examples of data preparation, training, and evaluation
 
-[Detectron2 ](https://ai.meta.com/tools/detectron2/)
-[Detectron2 github ](https://github.com/facebookresearch/detectron2)
+- [Detectron2 ](https://ai.meta.com/tools/detectron2/)
+- [Detectron2 github ](https://github.com/facebookresearch/detectron2)
 
 
 
@@ -98,8 +98,8 @@ This notebook demonstrates the implementation of transfer learning on a Faster R
 
 This Notebook provides an implementation of transfer learning for object detection using the YOLO (You Only Look Once) model. It covers the process of fine-tuning a pre-trained YOLO model on custom datasets, including data preparation, annotation, model configuration, training, and evaluation. Suitable for efficient and real-time object detection tasks.
 
-![yolo](https://docs.ultralytics.com/)
-![yolo 8 finetune](https://docs.ultralytics.com/modes/train/)
+- [yolo](https://docs.ultralytics.com/)
+- [yolo 8 finetune](https://docs.ultralytics.com/modes/train/)
 
 
 # 3. DETR (DEtection TRansformer) - [Notebook](development_notebooks/detr_fine-tune_(coco_format)_resnet50.ipynb)
@@ -108,5 +108,5 @@ This Notebook provides an implementation of transfer learning for object detecti
 This notrbook demonstrates how to implement transfer learning using DETR (DEtection TRansformers) for object detection tasks. It includes steps for fine-tuning a pre-trained DETR model on custom datasets, covering data preparation, model configuration, training, and evaluation. DETR combines transformers with CNNs for end-to-end object detection, enabling improved performance on complex detection tasks.
 
 
-![Huggingface Detr](https://huggingface.co/docs/transformers/en/model_doc/detr)
-![Finetune detr](https://github.com/NielsRogge/Transformers-Tutorials/tree/master/DETR)
+- [Huggingface Detr](https://huggingface.co/docs/transformers/en/model_doc/detr)
+- [Finetune detr](https://github.com/NielsRogge/Transformers-Tutorials/tree/master/DETR)
