@@ -93,7 +93,7 @@ This notebook demonstrates the implementation of transfer learning on a Faster R
 
 
 # 2. Yolo - [Notebook]( )
-![image]()
+![image](src_img/1691253178942.png)
 
 This Notebook provides an implementation of transfer learning for object detection using the YOLO (You Only Look Once) model. It covers the process of fine-tuning a pre-trained YOLO model on custom datasets, including data preparation, annotation, model configuration, training, and evaluation. Suitable for efficient and real-time object detection tasks.
 
