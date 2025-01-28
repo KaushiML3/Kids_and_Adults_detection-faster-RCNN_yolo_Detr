@@ -79,8 +79,8 @@ Transfer Learning Use Case: Fine-tune for detecting and segmenting domain-specif
     - Diversity: Includes a wide range of scenarios for robust model training.
     - Annotations: Provides bounding boxes and class labels for all detected individuals.
 
-![Kaggle link](https://www.kaggle.com/datasets/kaushigihanml/kids-and-adults-detection)
-![Roboflow link](https://universe.roboflow.com/children-and-adults-detection/children-and-adults-detection/dataset/2)
+- [Kaggle link](https://www.kaggle.com/datasets/kaushigihanml/kids-and-adults-detection)
+- [Roboflow link](https://universe.roboflow.com/children-and-adults-detection/children-and-adults-detection/dataset/2)
 
 
 # 1. Faster R-CNN - [Notebook](development_notebooks/Fast-RCNN_object_Detection_using_Detectron2.ipynb)
